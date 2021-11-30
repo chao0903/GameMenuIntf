@@ -1,0 +1,60 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+x64/
+win32/
+*.sdf
+*.suo
+.vs/
+.DS_store
+CMakeFiles/
+*_autogen/
+objtest/
+*.dir/
+.idea/
+cmake-build-debug/
+cmake-build-release/
+Debug/
+Release/
+.svn/
+
+git_version.tmp
+version.h
+
+WyServicesB/
+WyServicesT/
+locallib/
+WyServices/WyServicesPS/
+server-service
+server-service
+localinc/gtest

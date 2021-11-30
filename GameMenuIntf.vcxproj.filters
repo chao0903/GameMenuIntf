@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{401d481a-a7ce-4da4-8724-3d0b6c83c2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExportInt">
+      <UniqueIdentifier>{d70da630-abf8-4045-8b42-7ceae5e37304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Businesslogic">
+      <UniqueIdentifier>{f78b83b9-9459-4142-a27e-c58c953db6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ExternalInterface">
+      <UniqueIdentifier>{ec81e998-13ca-4b4e-af5d-76712a6201fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dllhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GlobalInt.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportInt\GameMenuApi.h">
+      <Filter>ExportInt</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RapidJsonMgr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ATW.h">
+      <Filter>Common\ExternalInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Businesslogic\GameMenuCenter.h">
+      <Filter>Businesslogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RegistryConfigMgr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\win-underlib-service\Basic\logfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\win-underlib-service\Basic\WinRegistryKey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GlobalInt.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportInt\GameMenuApi.cpp">
+      <Filter>ExportInt</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RapidJsonMgr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ATW.cpp">
+      <Filter>Common\ExternalInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Businesslogic\GameMenuCenter.cpp">
+      <Filter>Businesslogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RegistryConfigMgr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win-underlib-service\Basic\logfile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win-underlib-service\Basic\WinRegistryKey.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
